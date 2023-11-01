@@ -1,4 +1,4 @@
-package ru.car;
+package Demchenko.car;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -9,19 +9,19 @@ import org.springframework.beans.factory.annotation.Value;
  *  Класс конфигурации
  */
 @Configuration
-@ComponentScan("ru.car")
+@ComponentScan("Demchenko.car")
 public class AppConfig {
     /**
      * Минимальная громкость
      */
     @Value("${minVolume}")
-    private int minVolume;
+    private Integer minVolume;
 
     /**
      * Максимальная громкость
      */
     @Value("${maxVolume}")
-    private int maxVolume;
+    private Integer maxVolume;
 
     /**
      * Модель автомобиля

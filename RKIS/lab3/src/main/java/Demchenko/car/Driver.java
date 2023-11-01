@@ -1,4 +1,4 @@
-package ru.car;
+package Demchenko.car;
 
 import org.springframework.stereotype.Component;
 
