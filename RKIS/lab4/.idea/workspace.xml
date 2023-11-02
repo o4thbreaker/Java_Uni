@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58ebe6be-367c-46f5-9adc-4948e0817958" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab3/src/main/java/ru/car/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/java/Demchenko/car/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/src/main/java/ru/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/java/Demchenko/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/src/main/java/ru/car/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/java/Demchenko/car/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/src/main/java/ru/car/IStateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/java/Demchenko/car/IStateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/src/main/java/ru/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/java/Demchenko/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="58ebe6be-367c-46f5-9adc-4948e0817958" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,39 +24,39 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2WJ8xoS33JO90ohy4yFOEiL1tBW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="lab4" />
