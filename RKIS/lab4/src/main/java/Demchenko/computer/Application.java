@@ -1,5 +1,5 @@
 package Demchenko.computer;
-
+// DAO -  средства чтения и записи данных в базу данных
 import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Scanner;

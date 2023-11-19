@@ -9,6 +9,7 @@
         <module name="RKIS-2" />
         <module name="RKIS-3" />
         <module name="RKIS-4" />
+        <module name="lab4" />
         <module name="cinema-rkis-2" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="RKIS-4" options="-parameters" />
       <module name="cinema-rkis-2" options="-parameters" />
       <module name="fourth" options="-parameters" />
+      <module name="lab4" options="-parameters" />
     </option>
   </component>
 </project>
