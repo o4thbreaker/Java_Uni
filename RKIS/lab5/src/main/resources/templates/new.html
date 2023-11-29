@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>New Computers</title>
+    <link rel="shortcut icon" href="#" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+<div th:replace="~{header :: header}"></div>
+
+<div class="container">
+    <h2>New Computers</h2>
+    <form th:action="@{/}" th:method="POST" th:object="${computers}" class="mt-4">
+        <div class="form-group">
+            <label for="gpu">Computers:</label>
+            <input type="text" id="gpu" name="gpu" th:field="*{gpu}" class="form-control" required>
+            <div th:if="${#fields.hasErrors('gpu')}" th:errors="*{gpu}" class="alert alert-danger mt-2">gpu Error
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="cpu">Computers cpu:</label>
+            <input type="text" id="cpu" name="cpu" th:field="*{cpu}" class="form-control" required>
+            <div th:if="${#fields.hasErrors('cpu')}" th:errors="*{cpu}" class="alert alert-danger mt-2">
+                cpu Error
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="monitor">Computers monitor:</label>
+            <input type="text" id="monitor" name="monitor" th:field="*{monitor}" class="form-control" required>
+            <div th:if="${#fields.hasErrors('monitor')}" th:errors="*{monitor}" class="alert alert-danger mt-2">monitor
+                Error
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="ramAmount">Computers ramAmount:</label>
+            <input type="number" id="ramAmount" name="ramAmount" th:field="*{ramAmount}" class="form-control" required>
+            <div th:if="${#fields.hasErrors('ramAmount')}" th:errors="*{ramAmount}" class="alert alert-danger mt-2">ramAmount
+                Error
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="price">Computers price:</label>
+            <input type="text" inputmode="decimal" id="price" name="price" pattern="[0-9]*[.,]?[0-9]*"
+                   th:field="*{price}" class="form-control" required>
+            <div th:if="${#fields.hasErrors('price')}" th:errors="*{price}" class="alert alert-danger mt-2">Price
+                Error
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Computers</button>
+    </form>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
