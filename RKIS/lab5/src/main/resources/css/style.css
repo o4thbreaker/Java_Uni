@@ -6,7 +6,7 @@ body {
 
 /* Style for header */
 header {
-    background-color: #fdc0ff; /* Blue background */
+    background-color: #009F93; /* Blue background */
     color: white; /* White text */
     padding: 10px; /* Padding to give space inside the header */
     margin: 0; /* Reset any default margin */
@@ -27,24 +27,24 @@ header {
 }
 
 .card-title {
-    color: #72008c;
+    color: #03312E;
 }
 
 /* Buttons styling */
 .btn-primary, .btn-info {
-    background-color: #cb6cd2;
-    border-color: #cb6cd2;
+    background-color: #037171;
+    border-color: #037171;
 }
 
 .btn-primary:hover, .btn-info:hover {
-    background-color: #cb6cd2;
-    border-color: #cb6cd2;
+    background-color: #037171;
+    border-color: #037171;
 }
 
 /* Forms and input fields styling */
 form {
     margin-bottom: 20px;
-    background-color: #ffffff;
+    background-color: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
