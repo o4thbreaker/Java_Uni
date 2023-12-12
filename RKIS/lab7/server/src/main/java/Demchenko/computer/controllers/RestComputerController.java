@@ -37,7 +37,7 @@ public class RestComputerController {
      */
     @GetMapping("/computer")
     public List<Computer> getAll() {
-        return computerService.findAll();
+        return computerService.getAllComputers();
     }
 
     /**
@@ -47,7 +47,7 @@ public class RestComputerController {
      */
     @GetMapping("/computer/{id}")
     public ResponseEntity<Computer> getById(@PathVariable("id") int id) {
-        Computer computer = computerService.findOne(id);
+        Computer computer = computerService.getOneComputer(id);
         if (computer != null) {
             return new ResponseEntity<>(computer, HttpStatus.OK);
         } else {
@@ -63,7 +63,7 @@ public class RestComputerController {
      */
     @PostMapping
     public ResponseEntity<Computer> create(@RequestBody @Valid Computer computer) {
-        computerService.save(computer);
+        computerService.saveComputer(computer);
         return new ResponseEntity<>(computer, HttpStatus.CREATED);
     }
 
@@ -79,7 +79,7 @@ public class RestComputerController {
             logger.error("Attempted to update non-existing computer with id {}", id);
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        computerService.update(id, computer);
+        computerService.updateComputer(id, computer);
         return new ResponseEntity<>(computer, HttpStatus.OK);
     }
 
@@ -94,7 +94,7 @@ public class RestComputerController {
             logger.error("Attempted to delete non-existing computer with id {}", id);
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        computerService.delete(id);
+        computerService.deleteComputer(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
