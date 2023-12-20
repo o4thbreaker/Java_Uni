@@ -20,6 +20,7 @@
             <p class="card-text" th:text="'Monitor: ' + ${computers.monitor}">Monitor</p>
             <p class="card-text" th:text="'ramAmount: ' + ${computers.ramAmount}">ramAmount</p>
             <p class="card-text" th:text="'Price: ' + ${computers.price} + ' $'">Price</p>
+            <p class="card-text" th:text="'Quantity: ' + ${computers.quantity} + ' in stock'">Quantity</p>
             <a th:href="@{/computers/{id}/edit(id=${computers.id})}" class="btn btn-primary">Edit</a>
             <form th:action="@{/{id}(id=${computers.id})}" method="post" class="delete">
                 <input type="hidden" name="_method" value="delete"/>

@@ -35,6 +35,7 @@
                     <p class="card-text" th:text="'Monitor: ' + ${computers.monitor}">Monitor</p>
                     <p class="card-text" th:text="'ramAmount: ' + ${computers.ramAmount}">RAM Amount</p>
                     <p class="card-text" th:text="'Price: ' + ${computers.price} + ' $'">Price</p>
+                    <p class="card-text" th:text="'Quantity: ' + ${computers.quantity} + ' in stock'">Quantity</p>
                 </div>
                 <div class="card-footer">
                     <a th:href="@{/computers/{id}(id=${computers.id})}" class="btn btn-primary">View Details</a>
