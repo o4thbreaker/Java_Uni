@@ -1,6 +1,6 @@
 package Demchenko.computer;
 
-import com.example.demo.messaging.MessageListener;
+import Demchenko.computer.messaging.MessageListener;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
