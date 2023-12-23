@@ -19,8 +19,6 @@
 
 4. Запустить сервер, перейдя в папку server и прописав в терминале java -jar target\server-1.0-snapshot.jar
 
-5. Запустить клиента, перейдя в папку client и прописав в терминале java -jar target\client-1.0-snapshot.jar
-
 ## Команды Rest API
 
 1. Чтобы получить все компьютеры, прописываем GET /apt/computer
